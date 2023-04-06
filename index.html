@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/pexels-magda-ehlers-1337380.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <title>MOOI || Application Form</title>
+</head>
+<body>
+    <div class="contain bg-light mt-3 mb-5">
+        <form  id="formOne">
+            <div class="d-flex mt-4">
+                <img src="img/pexels-magda-ehlers-1337380.jpg" alt="">
+                <h1 class="text-center text-info">APPLICATION FORM</h1>
+            </div>
+            <h4>Ensure you fill in your correct information in the fields below.</h4>
+            <div class="d-flex mt-4">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input id="first-name" class="form-control" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="middle-name">Middle Name</label>
+                    <input id="middle-name" class="form-control" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input id="last-name" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">
+                Gender:
+                <label for="Male">Male</label>
+                <input type="radio"  name="Gender" value="Male">
+             
+                <label for="Female">Female</label>
+                <input type="radio" name="Gender"  value="Female" >
+            </div>
+            <div class="form-group">
+                Marital Status:
+                <label for="Male">Single</label>
+                <input type="radio"  name="status" value="Single">
+             
+                <label for="Married">Married</label>
+                <input type="radio" name="status"  value="Married" >
+            </div>
+            <div class="form-group">
+                <label for="tel-number">Mobile Number</label>
+                <input id="tel-number" class="form-control" type="tel" required>
+            </div>
+            <div class="form-group">
+                <label for="r-adress">Residential Adress</label>
+                <input id="r-adress" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Adress</label>
+                <input id="email" class="form-control" type="email" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label>
+                <input id="dob" class="form-control" type="date" required>
+            </div>
+            <div class="form-group">
+                <label for="job">Job Application:</label>
+               <select name="job" id="job">
+                <option value="">Select Job</option>
+                <option value="Project Manager">Project Manager</option>
+                <option value="Front-end Developer">Front-end Developer</option>
+                <option value="Back-end Developer">Back-end Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+               </select>
+            </div>
+            <div class="form-group">
+                <label for="doa">Date Of Application</label>
+                <input id="doa" class="form-control" type="date" required>
+            </div>
+            <div class="form-group">
+                <label for="cv">Attach Curriculum Vitae</label>
+                <input id="cv"  class="form-control" type="file" >
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        
+
+        </form>
+
+    </div>
+
+    <div class="container bg-light pb-2" id="letter">
+        <div class="d-flex mt-4 pt-4 justify-content-center">
+            <img src="img/pexels-magda-ehlers-1337380.jpg" alt="">
+           <h1 class="text-success">APPLICATION LETTER</h1>
+        </div>
+        <ul class="adress">
+            <li>116, Ogunnusi Road,</li>
+            <li>PMB-1123,Ojodu-Berger,</li>
+            <li>Ikeja,</li>
+            <li>Lagos.</li>
+            <li><span class="doa "></span>.</li>
+        </ul>
+        <p>DEAR <span class="f-name text-uppercase"></span> <span class="m-name text-uppercase"></span> <span class="l-name text-uppercase"></span>,</p>
+
+
+        <p>This letter is to inform you that following the submission of your application form, you are hereby scheduled to appear in the first stage of the <span>MOOI JOB INTERVIEW</span> for the post of <span class="job"></span> on the 22nd of June 2023 at 9AM PROMPT. You are to bring along with you, your laptop and a hardware copy of the Curriculum Vitae you submitted in the form. More information on this interview will be sent to your phone number: <span class="tel-number"></span> and email: <span class="email"></span>.</p>
+
+
+
+
+        <p>Kind Regards,</p>
+        <ul class="close-salute">
+            <li>Tofunmi Kusimo</li>
+            <li>HR Manager</li>
+        </ul>
+        <hr>
+        <p class="text-center">Contact us for any questions:<a href="#">+23465766886999</a> </p>
+
+
+    </div>
+</body>
+</html>
