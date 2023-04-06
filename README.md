@@ -14,7 +14,7 @@
 
 ## Description
 
-_This is an application containing a form with fields to be inputted with information by the user and then returns the information in a letter to the user.  _
+_This is an application containing a form with fields to be inputted with information by the user and then return the information in a letter to the user._
 
 ## Setup/Installation Requirements
 
